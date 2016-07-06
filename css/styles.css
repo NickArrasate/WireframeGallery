@@ -1,0 +1,37 @@
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+.wrap{
+  height: 100vh;
+}
+.columns {
+  height: 25%;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2vh;
+  background: lightgrey;
+}
+
+.feature1{
+  width: 100%;
+  height: 10%;
+  margin-bottom: 1vh;
+  background: darkgrey;
+}
+
+@media screen and (min-width:600px){
+  .columns {
+    float: left;
+    width: 44%;
+    margin: 3% 3% 0;
+  }
+
+}
+@media screen and (min-width:1200px){
+  .columns {
+    float: left;
+    width: 27%;
+    margin: 3% 3% 0;
+  }
+}
